@@ -35,7 +35,6 @@ protected成员变量可以被继承，private不行，但都是在内部使用�
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20191017162956756.png)
 
 ## POC
-
 首先在\app\controller\Index.php中添加利用条件
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20191017163107784.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQxODA5ODk2,size_16,color_FFFFFF,t_70)
 构造POC的时候注意在web根目录下引入第三方\Opis\Closure函数库vendor，才能序列化闭包对象，否则会报错
@@ -44,7 +43,7 @@ protected成员变量可以被继承，private不行，但都是在内部使用�
 //导入
 require __DIR__ . '/vendor/autoload.php';
 ```
-
+https://github.com/Dido1960/thinkphp/tree/master/v6.0.x/poc
 
 ## reference
 https://www.anquanke.com/post/id/187393
