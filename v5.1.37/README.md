@@ -74,6 +74,10 @@ $this -> $data（$_GET数组）
 
 在默认模块中构造利用点
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190925143232558.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQxODA5ODk2,size_16,color_FFFFFF,t_70)
+
+## POC
+https://github.com/Dido1960/thinkphp/tree/master/v5.1.37/poc
+
 ## 参考文章
 [挖掘暗藏ThinkPHP中的反序列利用链](https://blog.riskivy.com/%E6%8C%96%E6%8E%98%E6%9A%97%E8%97%8Fthinkphp%E4%B8%AD%E7%9A%84%E5%8F%8D%E5%BA%8F%E5%88%97%E5%88%A9%E7%94%A8%E9%93%BE/)
 [Thinkphp 反序列化利用链深入分析](https://paper.seebug.org/1040/)

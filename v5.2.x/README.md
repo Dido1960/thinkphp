@@ -1,4 +1,7 @@
-﻿## 思路
+## 测试版本
+php v7.2.10
+thinkphp v5.2.x
+## 思路
 前面的利用链借鉴的是v5.1.37中的思路，可以参考文章[thinkphpv5.1.37反序列化利用链挖掘](https://github.com/Dido1960/thinkphp/tree/master/v5.1.37)
 ```
 // 析构方法入手
