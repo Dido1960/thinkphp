@@ -14,7 +14,6 @@ file_exists()函数将参数当作字符串处理，可以触发类的__toString
 ```
 // 路径
 \thinkphp\library\think\model\concern\Conversion.php 
-\thinkphp\library\think\model\concern\Attribute.php
 
 // 寻找__toString()的调用链
 __toString() --> toJson()--> toArray()
@@ -27,12 +26,10 @@ $name --> （$this->append as $key => $name）
 $relation--> getAttr($key) --> getData($name) --> array_key_exists($name, $this->data) --> $this->data[$name]
 
 // 可控参数 
-\thinkphp\library\think\model\concern\Conversion.php
-下的$this->append 
-\thinkphp\library\think\model\concern\Attribute.php
-下的$this->$data
+$this->append 
+$this->$data
 
-// 注意，他们均为代码复用的trait，需要寻找复用了他们的类来进行利用
+// 注意，Conversionll为代码复用的trait，需要寻找复用了他的类来进行利用
 ```
 
 寻找没有visible方法的类，并且实现了__call()方法，这个方法的实现一般带着call_user_func_array
