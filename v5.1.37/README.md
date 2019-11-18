@@ -8,7 +8,6 @@ __destruct() --> removeFiles() --> files_exists($filename)
 
 // 可控参数
 $this->filename
-
 ```
 
 file_exists()函数将参数当作字符串处理，可以触发类的__toString()魔术方法
