@@ -4,7 +4,7 @@
 __destruct() --> removeFiles() --> files_exists($filename)
 
 // 可控参数
-new windows()->filename
+$this->filename
 
 // 绝对路径
 D:\phpstudy\PHPTutorial\WWW\v5.1.37\thinkphp\library\think\process\pipes\Windows.php
