@@ -35,8 +35,9 @@ $relation->visible($name);
 利用点：think/model/concern/Attribute.php中getValue可函数动态调用函数`$closure($value, $this->data)`，`$closure,$value`参数均可控
 ```
 //路径
-\vendor\topthink\framework\src\think\model\concern\Attribute.php
+\vendor\topthink\framework\src\think\model\concern\Conversion.php
 
+接着上面的链
 toArray() --> getAttr($key) --> getValue($name, $value, $relation) --> $closure($value, $this->data)
 
 $closure = $this->withAttr[$fieldName] 
