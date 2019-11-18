@@ -49,9 +49,6 @@ $name为$this->data中的键，所以要保证$this->withAttr的键与$this->dat
 //可控参数
 $this->withAttr
 $this->data
-  
-//注意，这里Attribute，Conversion为trait，需要寻找复用这两个trait的类，刚好\think\Model复用了，\think\Model为抽象类，不能直接实例化，寻找到子类think\model\Pivot
-
  ```
 
 这里`$closure($value, $this->data)`有两个方式进行利用
