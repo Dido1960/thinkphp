@@ -64,7 +64,6 @@ $this->config['var_ajax']可控，所以input()函数中的$name可控，刚好i
 $data = $this->getData($data, $name) --> $data = $data[$val]
  
 // 可控参数
-$this->hook
 $this->config['var_ajax']
 $this -> $filter
 $this -> $data（$_GET数组）
